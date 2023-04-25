@@ -1,9 +1,13 @@
-# NO_Algo_NO_Gain
+## NO_Algo_NO_Gain
 Study to algorithm problems
 
-# Rules
+## Rules
 1. At least, resolve 3 algorithm problems in a week.
 2. Create a folder named as [ProblemSiteName(lowercase)]_[TheNumbefOfProblem(lowercase)], ex) leetcode_34
 3. Create a file in the folder as [ID].[CodeExtension], ex) cys.cpp
 4. Commit and PR.
 5. Merge after receiving at least one comment.
+6. Write or paste the performance of your code.
+ - Example
+ * Runtime 4ms Beats 98.96%
+ * Memory 8.9MB Beats 100%
