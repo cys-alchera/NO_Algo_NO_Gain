@@ -1,5 +1,5 @@
 """
-200509 TWO SUM Problem
+230509 TWO SUM Problem
 Park Hee Chan
 """
 
@@ -18,8 +18,10 @@ class Solution:
 
         return idx_list
 
-"""
+'''
+RESULT
 Runtime 647ms, 40.27% beats
 Memory 17MB, 16.50% beats
-"""
 
+
+'''
