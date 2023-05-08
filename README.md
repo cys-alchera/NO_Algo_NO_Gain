@@ -11,6 +11,9 @@ Study to algorithm problems
  - Example
  * Runtime 4ms Beats 98.96%
  * Memory 8.9MB Beats 100%
+ 
+## Events
+If a specific solution made from someone who is participated is remarkable, we will make a time to introduce the way. 
 
 ## Recommended a list of sites to study algorithms
  * [Leetcode](https://leetcode.com/)
