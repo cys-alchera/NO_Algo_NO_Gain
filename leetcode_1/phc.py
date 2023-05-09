@@ -23,5 +23,6 @@ RESULT
 Runtime 647ms, 40.27% beats
 Memory 17MB, 16.50% beats
 
+test
 
 '''
