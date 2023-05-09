@@ -1,4 +1,4 @@
-import { createCounter } from './main';
+import { createCounter } from './yoonalc';
 test('test case 1', () => {
     const counter = createCounter(5);
     expect(counter.increment()).toBe(6);
