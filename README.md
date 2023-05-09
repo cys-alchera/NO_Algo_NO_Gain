@@ -3,11 +3,11 @@ Study to algorithm problems
 
 ## Rules
 1. At least, resolve 3 algorithm problems in a week.
-2. Create a folder named as [ProblemSiteName(lowercase)]_[TheNumbefOfProblem(lowercase)], ex) leetcode_34
-3. Create a file in the folder as [ID].[CodeExtension], ex) cys.cpp
-4. Commit and PR.
-5. Merge after receiving at least one comment.
-6. Write or paste the performance of your code.
+3. Create a folder named as [ProblemSiteName(lowercase)]_[TheNumbefOfProblem(lowercase)], ex) leetcode_34
+4. Create a file in the folder as [ID].[CodeExtension], ex) cys.cpp
+5. Make 'your' branch, Commit and PR.
+6. Merge after receiving at least one comment.
+7. Write or paste the performance of your code.
  - Example
  * Runtime 4ms Beats 98.96%
  * Memory 8.9MB Beats 100%
