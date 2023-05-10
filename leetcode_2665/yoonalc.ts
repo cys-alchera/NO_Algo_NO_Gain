@@ -1,5 +1,5 @@
-// Runtime 81ms [12.1%]
-// Memory 45.6 MB [42.76%]
+// Runtime 81ms Beats 12.01%
+// Memory 45.6MB Beats 42.76%
 
 type ReturnObj = {
     increment: () => number,
