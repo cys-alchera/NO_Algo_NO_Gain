@@ -1,7 +1,7 @@
 """
 2023-05-20
-Leet Code 3
-Longest Substring
+Leet Code 3: Longest Substring
+https://leetcode.com/problems/longest-substring-without-repeating-characters/
 Park Hee Chan
 """
 
