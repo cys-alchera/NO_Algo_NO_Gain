@@ -1,4 +1,4 @@
-class Solution:
+class Solution: 
     def numWaterBottles(self, numBottles: int, numExchange: int) -> int: 
         betray_bottles = numBottles
         while betray_bottles >= numExchange:
