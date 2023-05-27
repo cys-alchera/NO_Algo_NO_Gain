@@ -14,6 +14,7 @@ class Solution:
                 return False
         return True
 
+
 '''
 RESULT
 Runtime 47ms, 61.33% beats
