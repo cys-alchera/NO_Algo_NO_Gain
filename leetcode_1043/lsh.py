@@ -14,6 +14,7 @@ class Solution:
                 afterArr[idx] = max(afterArr[idx], afterArr[idx-subIdx] + subArrMax*(subIdx))
         return afterArr[-1]
 
+     
 '''
 RESULT
 Runtime 445ms, 89.29% beats
