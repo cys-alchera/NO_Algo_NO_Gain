@@ -3,16 +3,25 @@
 Lee SooHyung
 """
 
-class Solution:
-    def canFormArray(self, arr: List[int], pieces: List[List[int]]) -> bool:
-        hashTable = {x[0]:x for x in pieces}
-        idx = 0
-        while idx < len(arr):
-            if arr[idx] in hashTable and arr[idx:idx+len(hashTable[arr[idx]])] == hashTable[arr[idx]]:
-                idx += len(hashTable[arr[idx]])
-            else:
-                return False
-        return True
+from collections import Counter
+class FindSumPairs:
+
+    def __init__(self, nums1: List[int], nums2: List[int]):
+        self.nums1 = Counter(nums1)
+        self.nums2 = Counter(nums2)
+        self.nums2_List = nums2
+
+    def add(self, index: int, val: int) -> None:
+        self.nums2[self.nums2_List[index]] -= 1
+        self.nums2_List[index] += val
+        self.nums2[self.nums2_List[index]] += 1
+
+    def count(self, tot: int) -> int:
+        resultCount = 0
+        for num in self.nums1:
+            if tot - num in self.nums2:
+                resultCount += self.nums2[tot - num] * self.nums1[num]
+        return resultCount
 
 
 '''
