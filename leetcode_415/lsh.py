@@ -20,6 +20,7 @@ class Solution:
             returnSum = str(flag) + returnSum
         return returnSum
 
+
 '''
 RESULT
 Runtime 58ms, 21.86% beats
