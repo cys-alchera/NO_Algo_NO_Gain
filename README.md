@@ -8,7 +8,7 @@ Study to algorithm problems
 5. Make 'your' branch, Commit and PR.
 6. Merge after receiving at least one comment.
 7. Write or paste the performance of your code.
- - Example
+### Example
  * Runtime 4ms Beats 98.96%
  * Memory 8.9MB Beats 100%
  
